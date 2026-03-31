@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├───────────────────────────────────────────────────────────────┤             ├──────────────────────────────────────────────────────┤
         KC_TAB,   LSFT_T(KC_A), LCTL_T(KC_S), LALT_T(KC_D), LGUI_T(KC_F), KC_G,    KC_H,     RGUI_T(KC_J), RALT_T(KC_K), RCTL_T(KC_L), RSFT_T(KC_SCLN), KC_QUOT,
   // ├───────────────────────────────────────────────────────────────┤              ├──────────────────────────────────────────────────────┤
-        KC_GRAVE,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,                     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_FSLH,  KC_BSLS,
+        KC_GRAVE,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,                     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,  KC_BSLS,
   // ╰───────────────────────────────────────────────────────────────┤              ├──────────────────────────────────────────────────────╯
                                        LT(LAYER_MEDIA, KC_ESC),  KC_SPC,   RAISE,                     RAISE,    KC_ENT,
                                                  KC_DEL,   LOWER,                     LOWER

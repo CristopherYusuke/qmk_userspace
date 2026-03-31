@@ -27,7 +27,6 @@
 #endif // __arm__
 
 /* Charybdis-specific features. */
-
 #ifdef POINTING_DEVICE_ENABLE
 // Automatically enable the pointer layer when moving the trackball.  See also:
 // - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS`
@@ -36,5 +35,6 @@
 #endif // POINTING_DEVICE_ENABLE
 
 /* Homerow mods configuration */
-#define TAPPING_TERM 200
-#define HOLD_ON_OTHER_KEY_PRESS
+#define TAPPING_TERM 175
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD

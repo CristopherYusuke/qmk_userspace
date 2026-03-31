@@ -1,0 +1,3 @@
+VIA_ENABLE = false
+POINTING_DEVICE_ENABLE = true
+
